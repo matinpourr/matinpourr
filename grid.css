@@ -1,0 +1,29 @@
+.div1 {
+    background-color: lightblue;
+}
+
+.div2 {
+    background-color: lightpink;
+}
+
+.div3 {
+    background-color: lightsalmon;
+}
+
+.divs {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 20px;
+}
+
+.divs2 {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-bottom: 20px;
+}
+
+.divs3 {
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+}
+
